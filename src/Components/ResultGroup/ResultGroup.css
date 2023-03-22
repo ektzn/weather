@@ -1,0 +1,4 @@
+.weatherCardGroup {
+    display:flex;
+    flex-direction: row;
+}

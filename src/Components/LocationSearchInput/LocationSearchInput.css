@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.input__dropdown {
+    display: block;
+    flex: column;
+    width: 800px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: solid 1px black;
+}
+
+.location-search-input { 
+    width: 100%;
+    border: none;
+    padding: 25px;
+}
+
+.dropdown__suggestion {
+    display: block; 
+    padding: 20px;
+    text-overflow:ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.search {
+    padding: 25px;
+    border: black 1px solid ;
+    border-left: none;
+    background: rgba(236, 234, 234, 0.548);
+}
